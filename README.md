@@ -1,2 +1,15 @@
-# cover_maker
-REST API for generating book covers in 1:1 and 7:10 aspect ratios
+# Image Processing API
+
+    Этот сервис предоставляет API для обработки изображений: создания размытых подложек с соотношением сторон 1:1 и 7:10.
+
+    ## Требования
+    - Python 3.8+
+
+    ## Установка
+    1. Распакуйте архив.
+    2. Создайте и активируйте виртуальное окружение
+      python -m venv venv
+      source venv/bin/activate
+    3. Установите все зависимости:
+      bash
+         pip install -r requirements.txt
